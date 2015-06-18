@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+	for (var i = 0, ${1:item}; ${1:item} = ${2:items}[i]; i++) {
+  	${3:someFn}(item);
+  }
+]]></content>
+	<tabTrigger>fast-for</tabTrigger>
+	<scope>source.js</scope> 
+</snippet>
